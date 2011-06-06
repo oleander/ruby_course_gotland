@@ -26,7 +26,7 @@ When starting the application you'll asked to pass one of the following params.
 ## Assumptions and other details.
 
 - The given code base is written in english.
-- Any change regaring the codebase can be view @ Github. See the [DEVLOG](https://github.com/oleander/ruby_course_gotland/blob/master/beach_water_sports/DEVLOG.md) file for more info.
+- Any change regarding the codebase can be view @ Github. See the [DEVLOG](https://github.com/oleander/ruby_course_gotland/blob/master/beach_water_sports/DEVLOG.md) file for more info.
 - The documentation is written in markdown.
 
 ## Structure
