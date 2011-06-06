@@ -1,0 +1,1 @@
+# Ruby summer course @ Gotland 2011
