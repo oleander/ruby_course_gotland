@@ -1,7 +1,7 @@
 class BeachWaterSports
-  def initialize
+  def initialize(amounts = 12)
     @orders  = []
-    @amounts = 12
+    @amounts = amounts
   end
   
   # @order Order An order object
@@ -20,15 +20,15 @@ class BeachWaterSports
     @orders.delete_at(nr)
   end
   
-  # @return Integer An available random number
-  # Returns a random number that hasn't been used by the {@orders} array
-  def random
-    begin
-      r = rand(@amounts) + 1
-    end while not @orders[r].nil?
-    
-    r
-  end
+  private
+    # @return Integer An available random number
+    # Returns a random number that hasn't been used by the {@orders} array
+    def random
+      begin
+        r = rand(@amounts) + 1
+      end while not @orders[r].nil?
+      r
+    end
 end
 
 class Order < Struct.new(:name, :type, :time)
