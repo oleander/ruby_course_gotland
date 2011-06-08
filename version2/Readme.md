@@ -17,7 +17,8 @@
   - queue:Queue<Order>
   - amount:integer
   - orders:Array<Order>
-    
+  - name:String
+  
 ## Simple relation sketch
 
 ![sketch](http://i.imgur.com/LZ8gE.jpg)
