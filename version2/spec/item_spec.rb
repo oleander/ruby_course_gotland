@@ -33,6 +33,10 @@ describe Item do
       @item.should have(2).orders
       @item.amount.should eq(8)
     end
+    
+    it "should be possible to rent an item, and them return it" do
+      # @item.rent!(@customer)
+    end
   end
 end
 
