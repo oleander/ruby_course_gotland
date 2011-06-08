@@ -1,0 +1,3 @@
+-fd
+--colour
+--require ./spec/spec_helper
